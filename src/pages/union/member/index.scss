@@ -1,0 +1,36 @@
+.searchBox {
+    display: flex;
+    margin: 10px 0 20px 10px;
+    .searchItem {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        .label {
+            width: 70px;
+            // color: #9F1F1F;
+            // font-weight:bold;
+        }
+    }
+}
+.editBox {
+    margin-left: 50px;
+    .item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        .label {
+            width: 80px;
+            // color: #9F1F1F;
+            color: #666;
+            // font-weight:bold;
+        }
+    }
+}
+.defaultBtn:hover {
+    border-color: #CF4343;
+    color: #CF4343;
+}
+.defaultBtn:focus {
+    border-color: #CF4343;
+    color: #CF4343;
+}

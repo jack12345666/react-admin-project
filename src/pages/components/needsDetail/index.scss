@@ -1,0 +1,14 @@
+.item {
+    display: flex;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    .label {
+        width: 80px;
+        font-weight: bold;
+    }
+    .value {
+        flex: 1;
+        word-wrap: break-word;
+        word-break:break-all;
+    }
+}

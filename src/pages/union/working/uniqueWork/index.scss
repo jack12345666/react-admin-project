@@ -1,0 +1,72 @@
+.box {
+    .filter {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px 0;
+        .filterItem {
+            display: flex;
+            align-items: center;
+        .label {
+            color: #EB5757;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+      }
+    }
+}
+.item {
+   display: flex;
+   align-items: center; 
+   margin-bottom: 20px;
+    .noLabel {
+        width: 90px; 
+        margin-left: 10px;
+    }
+   .label {
+    width: 100px; 
+    &::before {
+        content: '*';
+        color: red;
+        margin-right: 2px;
+        font-size: 16px;
+    }
+   }
+   .value {
+       flex: 1;
+   }
+}
+.sitem {
+    display: flex;
+    margin-bottom: 20px;
+    &::before {
+        content: '*';
+        color: red;
+        margin-right: 2px;
+        font-size: 16px;
+    }
+    .label {
+        width: 90px;
+    }
+    .value {
+        flex: 1;
+    }
+}
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 15px 0;
+}
+
+.defaultBtn {
+    color: #CF4343;
+}
+.defaultBtn:hover {
+    border-color: #CF4343;
+    color: #CF4343;
+}
+.defaultBtn:focus {
+    border-color: #CF4343;
+    color: #CF4343;
+}

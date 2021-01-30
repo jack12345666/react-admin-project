@@ -1,0 +1,15 @@
+.box {
+  padding: 0 20px;
+.item {
+    display: flex;
+    margin-bottom: 10px;
+    .label {
+        width: 80px;
+        color: #9F1F1F;
+        font-weight: bold;
+    }
+    .value {
+        flex: 1;
+    }
+  }
+}

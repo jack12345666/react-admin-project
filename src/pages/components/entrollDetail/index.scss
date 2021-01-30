@@ -1,0 +1,87 @@
+.box {
+    .Item {
+        display: flex;
+        align-items: center;
+        margin: 5px 0;
+        font-size: 15px;
+        .name {
+            color: #999;
+            width: 100px;
+        }
+        .value {
+            color: #666;
+        }
+    }
+    .title {
+        font-weight: 700;
+        font-size: 15px;
+        margin: 10px 0;
+        border-top: 1px solid #f1eded;
+        padding-top: 10px;
+    }
+    .rightTitle {
+        font-weight: 700;
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .icon {
+            margin-right: 20px;
+            margin-top: 8px;
+            cursor: pointer;
+            color: #108ee9; 
+        }
+        .title {
+            border: none;
+        }
+    } 
+    .listTitle {
+        display: flex;
+        align-items: center; 
+        background-color: #cfcfcf;
+        .no {
+            flex: 1;
+            padding: 5px;
+        } 
+        .name {
+            flex: 2;
+            margin-left: 10px;
+            padding: 5px;
+        }
+        .phone {
+            flex: 2;
+            padding: 5px;
+        }
+        .zhiwu {
+            flex: 2;
+            padding: 5px;
+        }
+      }
+    .memberList {
+      max-height: 320px;
+      overflow: auto;
+      .memberItem {
+        display: flex;
+        align-items: center;
+        .no {
+            flex: 1;
+            margin-left: 10px;
+            padding: 5px;
+        } 
+        .name {
+           flex: 2;
+           padding: 5px;
+        }
+        .phone {
+            flex: 2;
+            padding: 5px;
+        } 
+        .zhiwu {
+            flex: 2;
+            padding: 5px;
+            margin-left: 10px;
+        } 
+       }
+      
+    }
+}

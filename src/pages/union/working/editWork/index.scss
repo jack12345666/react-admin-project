@@ -1,0 +1,52 @@
+
+.item {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 20px;
+    &::before {
+        content: '*';
+        color: red;
+        margin-right: 2px;
+        font-size: 16px;
+    }
+    .label {
+        width: 100px;
+    }
+    .value {
+        flex: 1;
+    }
+ }
+ .sitem {
+     display: flex;
+     margin-bottom: 20px;
+     &::before {
+        content: '*';
+        color: red;
+        margin-right: 2px;
+        font-size: 16px;
+    }
+     .label {
+         width: 100px;
+     }
+     .value {
+         flex: 1;
+     }
+ }
+ .options {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin: 30px 0 15px 0;
+ }
+ 
+ .defaultBtn {
+     color: #CF4343;
+ }
+ .defaultBtn:hover {
+     border-color: #CF4343;
+     color: #CF4343;
+ }
+ .defaultBtn:focus {
+     border-color: #CF4343;
+     color: #CF4343;
+ }

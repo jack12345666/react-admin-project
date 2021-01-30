@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body></body>
+<script>
+    function getQueryString(name){
+        var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if(r!=null)return  decodeURIComponent(r[2]); return null;
+    }
+    var result = getQueryString('result');
+    //因为后端经过URLEncoder.encode(result)会莫名多一个"+"号，需要去掉
+    result = result.replace(/\+/g,'');
+    //将结果显示出来
+    document.write(result);
+</script>
+</html>

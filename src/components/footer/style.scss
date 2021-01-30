@@ -1,0 +1,56 @@
+.box {
+    width: 100%;
+    background-color:#383d61;
+    .footerBox {
+        margin: 0 auto;
+        width: 1170px;
+        height: 132px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        .footerLeft {
+            padding-top: 10px;
+            width: 555px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+           .callWe {
+               color: #fff;
+               font-size: 17px;
+               font-weight: 700;
+               line-height: 44px;
+           }
+           .phone {
+               color: #fff;
+               font-size: 15px;
+               line-height: 30px;
+           }
+           .address {
+               color: #fff;
+               font-size: 15px;
+               line-height: 30px;
+           }
+        }
+        .footerRight {
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+             width: 555px;
+            .show {
+               color: #fff;
+               font-size: 17px;
+               font-weight: 700;
+               line-height: 44px;
+            }
+            .beian {
+               color: #fff;
+               font-size: 15px;
+               line-height: 25px;
+               a {
+                   color:#fff;
+               }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #f0f2f5;
+    .content {
+        flex: 1;
+        overflow: auto;
+        display: flex;
+        width: 1200px;
+        margin: 0 auto;
+        padding: 24px 0;
+        .right {
+            padding: 10px 24px;
+            background: #fff;
+            margin-left: 24px;
+            width: 100% 
+        }
+    }
+    .footer {
+        width: 100%;
+        background-color: #383d61;
+        margin-top: 20px;
+        padding: 0
+    }
+}

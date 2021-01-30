@@ -1,0 +1,94 @@
+.box {
+    .filter {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin: 20px 0 20px 20px;
+        .label {
+            color: #EB5757;
+            margin-right: 10px;
+            font-size: 16px;
+        }
+        .defaultBtn {
+            color: #CF4343;
+        }
+        .defaultBtn:hover {
+            border-color: #CF4343;
+            color: #CF4343;
+        }
+        .defaultBtn:focus {
+            border-color: #CF4343;
+            color: #CF4343;
+        }
+    }
+
+    .changeType {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 15px;
+        .typeCheckedItem {
+            background-color: #CF4343;
+            color: #fff;
+            padding: 3px 15px;
+            border-radius: 10px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .typeItem {
+            color: #666;
+            background-color: #fff;
+            padding: 3px 15px;
+            border-radius: 10px;
+            margin-right: 20px;
+            cursor: pointer;
+            &:hover {
+                color: #CF4343;
+            }
+        }
+    }
+}
+.tipsBox {
+    .tipsItem {
+        &:last-child {
+            border-bottom: none;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 16px;
+        padding: 15px 30px;
+        background-color: #fff;
+        border-bottom: 1px solid #E6E6E6;
+        .text {
+            color: #7D7D7D;
+        }
+        .time {
+            color: #DB4040;
+            padding: 0 5px;
+        }
+        .work {
+            color: #F2994A;
+        }
+    }
+}
+.inputBox {
+    padding: 10px;
+    .options {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .defaultBtn {
+        color: #CF4343;
+    }
+    .defaultBtn:hover {
+        border-color: #CF4343;
+        color: #CF4343;
+    }
+    .defaultBtn:focus {
+        border-color: #CF4343;
+        color: #CF4343;
+    }
+}

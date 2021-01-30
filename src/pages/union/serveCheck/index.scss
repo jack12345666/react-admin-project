@@ -1,0 +1,45 @@
+.box {
+    .top {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    .img {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      .imgTitle {
+       color: #000;
+       margin-right: 10px;
+     }
+     .imgTips {
+        font-size: 12px;
+        color: #999;
+      }
+    } 
+    .title {
+        margin: 20px 0;
+        color: #000;
+    }
+    .defaultBtn:hover {
+        border-color: #CF4343;
+        color: #CF4343;
+    }
+    .defaultBtn:focus {
+        border-color: #CF4343;
+        color: #CF4343;
+    }
+}
+.auditBox {
+    padding: 0 10px;
+    .item {
+        display: flex;
+        margin-bottom: 10px;
+        .label {
+            width: 120px;
+        }
+        .value {
+            flex: 1
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.auditBox {
+    padding: 0 10px;
+    .item {
+        display: flex;
+        margin-bottom: 10px;
+        .label {
+            width: 120px;
+        }
+        .value {
+            flex: 1
+        }
+    }
+}

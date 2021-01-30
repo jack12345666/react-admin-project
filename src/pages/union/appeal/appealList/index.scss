@@ -1,0 +1,14 @@
+.searchBox {
+    display: flex;
+    margin: 10px 0 20px 10px;
+    .searchItem {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        .label {
+            width: 50px;
+            color: #9F1F1F;
+            font-weight:bold;
+        }
+    }
+}
